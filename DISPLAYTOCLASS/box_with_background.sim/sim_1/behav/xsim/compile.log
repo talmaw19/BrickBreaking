@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.srcs/sources_1/imports/box_with_background/vga_sync.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga_sync
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.srcs/sources_1/imports/box_with_background/box_with_background.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity box_with_background

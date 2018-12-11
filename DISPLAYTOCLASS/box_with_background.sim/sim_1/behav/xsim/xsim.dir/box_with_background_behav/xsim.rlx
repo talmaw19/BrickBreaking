@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5233555247804230558  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 2fe8c54348764623925075d1a84493c8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot box_with_background_behav xil_defaultlib.box_with_background" , 
+    buildDate : "Jul 26 2018" , 
+    buildTime : "19:36:16" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/box_with_background_behav/xsimk.exe\"   \"xsim.dir/box_with_background_behav/obj/xsim_0.win64.obj\" \"xsim.dir/box_with_background_behav/obj/xsim_1.win64.obj\" \"C:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"C:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

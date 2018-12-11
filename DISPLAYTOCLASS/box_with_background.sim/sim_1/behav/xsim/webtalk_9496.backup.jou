@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Mon Nov 26 09:17:23 2018
+# Process ID: 9496
+# Current directory: C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.sim/sim_1/behav/xsim/xsim.dir/box_with_background_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.sim/sim_1/behav/xsim/xsim.dir/box_with_background_behav/webtalk/xsim_webtalk.tcl -notrace

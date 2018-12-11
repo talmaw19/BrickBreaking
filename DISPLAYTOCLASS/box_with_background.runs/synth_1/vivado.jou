@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Tue Dec 11 08:00:40 2018
+# Process ID: 8764
+# Current directory: C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.runs/synth_1
+# Command line: vivado.exe -log bouncing_box.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bouncing_box.tcl
+# Log file: C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.runs/synth_1/bouncing_box.vds
+# Journal file: C:/Users/talmaw19/Desktop/0_box_with_background/box_with_background.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bouncing_box.tcl -notrace

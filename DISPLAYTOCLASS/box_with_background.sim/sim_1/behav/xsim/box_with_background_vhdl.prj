@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../box_with_background.srcs/sources_1/imports/box_with_background/vga_sync.vhd" \
+"../../../../box_with_background.srcs/sources_1/imports/box_with_background/box_with_background.vhd" \
+
+# Do not sort compile order
+nosort

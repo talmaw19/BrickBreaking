@@ -1,0 +1,1 @@
+-wto "2fe8c54348764623925075d1a84493c8" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "bouncing_box_behav" "xil_defaultlib.bouncing_box" -log "elaborate.log" 

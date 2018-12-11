@@ -1,0 +1,86 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
+| Date         : Tue Dec 11 08:02:04 2018
+| Host         : LAB-SCI-214-11 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file bouncing_box_control_sets_placed.rpt
+| Design       : bouncing_box
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    17 |
+| Unused register locations in slices containing registers |    52 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            2 |
+|      8 |            1 |
+|     10 |            2 |
+|     14 |            1 |
+|    16+ |           10 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             290 |           48 |
+| No           | No                    | Yes                    |               8 |            3 |
+| No           | Yes                   | No                     |             346 |           52 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              40 |            8 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+----------------------------+------------------------------+------------------+----------------+
+|              Clock Signal              |        Enable Signal       |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++----------------------------------------+----------------------------+------------------------------+------------------+----------------+
+|  video_on_BUFG                         |                            |                              |                1 |              2 |
+|  vga_sync_unit/clk_divider_reg_n_0_[0] |                            | reset_IBUF                   |                2 |              4 |
+|  clk_IBUF_BUFG                         |                            | reset_IBUF                   |                1 |              4 |
+|  vga_sync_unit/p_tick                  |                            | vga_sync_unit/red_reg_reg[3] |                3 |              8 |
+|  clk_IBUF_BUFG                         |                            | dir_x198_out                 |                2 |             10 |
+|  clk_IBUF_BUFG                         |                            | dir_xS115_out                |                1 |             10 |
+|  clk_IBUF_BUFG                         |                            | dir_y118_out                 |                2 |             14 |
+|  vga_sync_unit/p_tick                  |                            | vga_sync_unit/green_reg      |                3 |             16 |
+|  vga_sync_unit/clk_divider_reg_n_0_[0] | vga_sync_unit/p_tick       | reset_IBUF                   |                4 |             20 |
+|  vga_sync_unit/clk_divider_reg_n_0_[0] | vga_sync_unit/v_count_reg0 | reset_IBUF                   |                4 |             20 |
+|  clk_IBUF_BUFG                         |                            |                              |               12 |             32 |
+|  clk_IBUF_BUFG                         |                            | y[31]_i_1_n_0                |                7 |             50 |
+|  clk_IBUF_BUFG                         |                            | xS[31]_i_1_n_0               |                8 |             54 |
+|  clk_IBUF_BUFG                         |                            | x[31]_i_1_n_0                |                8 |             54 |
+|  video_on_BUFG                         |                            | clear                        |                8 |             64 |
+|  clk_IBUF_BUFG                         |                            | dir_yS0                      |               10 |             66 |
+|  update_pos_BUFG                       |                            |                              |               35 |            256 |
++----------------------------------------+----------------------------+------------------------------+------------------+----------------+
+
+
